@@ -22,10 +22,10 @@
 #define STOP_BITS 1
 #define PARITY    UART_PARITY_NONE
 
-// We are using pins 0 and 1, but see the GPIO function select table in the
+// We are using pins 12 and 13, but see the GPIO function select table in the
 // datasheet for information on which other pins can be used.
-#define UART_TX_PIN 0
-#define UART_RX_PIN 1
+#define UART_TX_PIN 12
+#define UART_RX_PIN 13
 
 #define PICO_UART_DEVICE(uart)    (struct pico_uart_dev *)(uart)
 

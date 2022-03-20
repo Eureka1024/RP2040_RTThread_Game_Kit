@@ -5,3 +5,7 @@
 
 - 使用 RT-Thread Studio 软件生成基础工程 （RP2040选择模板 1.06）
 
+- 配置LED闪烁
+
+  `#define LED_PIN 4 //LED引脚`  更改为该模块的引脚
+
